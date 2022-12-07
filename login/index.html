@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <!-- es es comentario-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body>
+      <header>
+          <h1>Inicio de Sesión</h1>
+      </header>
+      <section>
+          <div class="sesion">
+          <input type="text" id="usuario" placeholder=" usuario" >
+          <br>
+          <input type="password" value="12345" id="myInput"><br><br>
+          <input type="checkbox" onclick="myFunction()">Mostrar contraseña
+          <br>
+          <button onclick="login()" href="./principal.html">Iniciar sesión</button> 
+          <div id="control"></div>
+          </div>
+          <div class="homePage">
+            <div class="col-xs-12 col-sm-12 col-md-offset-2 col-md-10 col-lg-offset-2 col-lg-10">
+                <div class="container col-md-12 col-lg-12">
+                    <!--Inicio recuperar contraseña --> 
+           <form class="form-signin panel center-block " role="form">
+             <h4 class="form-signin-heading siginsubTitl text-center">Por favor, escribe tu email </h4>
+             <input type="email" class="form-control" placeholder="Correo electrónico" required autofocus>
+             <button class="btn btn-lg btn-primary btn-block btnRecPass" type="submit">Recuperar contraseña</button>
+             
+           </form>
+                    <!--Fin recuperar contraseña -->
+             
+         </div>
+      </section>
+      <script src="aea.js"></script>
+  </body>
+ 
